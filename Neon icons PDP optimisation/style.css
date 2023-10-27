@@ -96,9 +96,6 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     margin-bottom: 0;
 }
 
-
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant__label {}
-
 .aos-animate.trust-image {
     display: none;
 }
@@ -162,5 +159,15 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
         line-height: 31px;
         letter-spacing: -0.977px;
         text-transform: uppercase;
+    }
+
+    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input label {
+        color: #000;
+        text-align: center;
+        font-size: 13.069px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13.6px;
+        letter-spacing: 0.383px;
     }
 }
