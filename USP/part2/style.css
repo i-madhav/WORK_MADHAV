@@ -1,0 +1,165 @@
+/* 
+.madHeading h2{
+color: #CF1F28;
+font-size: 27.2px;
+font-weight: 600;
+line-height: 32.64px;
+}
+
+.madHeading{
+    margin-bottom: 48px;
+}
+
+.mad-customerPanel{
+    display: flex;
+    gap: 32px;
+}
+
+.mad-card{
+    width: 25%;
+    padding: 24px 24px 142.42px 24px; 
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.08);
+}
+
+
+.mad-card-img{
+    display: block;
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.mad-card-company{
+    width: 100%;
+}
+
+.mad-cardInfoText{
+    text-align: left;
+}
+
+.mad-Text1{
+    color: #262524;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.mad-Text2{
+    color: #262524;
+    font-size: 12.8px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.mad-Text3{
+    color: #262524;
+    font-size: 12.8px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.2px; 
+}
+
+.mad-cardInfoUser{
+    text-align: right;
+}
+
+.mad-userName{
+    color: #262524;
+    font-size: 12.8px;
+    font-weight: 700;
+    line-height: 19.2px;
+    margin-bottom: 0;
+}
+
+.mad-conText{
+    color: #CF1F28;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin: 0;
+} */
+
+
+.madHeading h2{
+    color: #CF1F28;
+    font-size: 27.2px;
+    font-weight: 600;
+    line-height: 32.64px;
+    }
+    
+    .madHeading{
+        margin-bottom: 48px;
+    }
+    
+    .mad-customerPanel{
+        display: flex;
+        gap: 32px;
+    }
+    
+    .mad-card{
+        width: 25%;
+        padding: 24px 24px 142.42px 24px; 
+        background: rgba(255, 255, 255, 0.00);
+        box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.08);
+    }
+    
+    
+    .mad-card-img{
+        display: block;
+        width: 100%;
+        padding-bottom: 16px;
+    }
+    
+    .mad-card-company{
+        width: 100%;
+    }
+    
+    .mad-cardInfoText{
+        text-align: left;
+    }
+    
+    .mad-Text1{
+        color: #262524;
+        font-size: 12.8px;
+        font-weight: 400;
+        line-height: 19.2px;
+    }
+    
+    .mad-Text2{
+        color: #262524;
+        font-size: 12.8px;
+        font-weight: 700;
+        line-height: 19.2px;
+    }
+    
+    .mad-Text3{
+        color: #262524;
+        font-size: 12.8px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 19.2px; 
+    }
+    
+    .mad-cardInfoUser{
+        text-align: right;
+    }
+    
+    .mad-userName{
+        color: #262524;
+        font-size: 12.8px;
+        font-weight: 700;
+        line-height: 19.2px;
+        margin-bottom: 0;
+    }
+    
+    .mad-conText{
+        color: #CF1F28;
+        font-size: 12.8px;
+        font-weight: 400;
+        line-height: 19.2px;
+        margin: 0;
+    }
+    
+    .madCustomer {
+        padding: 2rem 2rem 0;
+    }

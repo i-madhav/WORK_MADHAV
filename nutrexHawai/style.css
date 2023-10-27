@@ -1,0 +1,25 @@
+.mad-BioAstin {
+    margin-right: 1rem;
+}
+.mad-svg{
+    margin-right: 1rem;
+}
+.mad-Hawaiian{
+    margin-right: 1rem;
+}
+
+.header__submenu .header__menu-item {
+    padding-right: 1.5rem !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mad-newEle{
+        position: relative;
+        transform: translate(84px, 16px);
+    }
+    
+.mad-svg{
+    margin-right: 1rem;
+} 
+  }

@@ -1,0 +1,299 @@
+.madContainerFeature {
+  margin-top: 2rem;
+}
+
+.madContainerFeature-heading p {
+  color: #cf1f28;
+  font-size: 23.8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32.64px;
+  margin: 0;
+  display: none;
+}
+
+.mad-feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f1f2f2;
+  padding: 10px;
+  row-gap:18px;
+}
+
+.mad-box p {
+  color: #cf1f28;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top:10px;
+}
+
+.mad-box:nth-child(3) img {
+  margin-top: 7px;
+}
+
+.contentContainerSub.showOverflow {
+  padding-left: 5rem !important;
+}
+
+.componentContentSectionContainer {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 45% calc(55% - 40px);
+}
+
+.contentContainerSub.showOverflow {
+  display: inline;
+}
+
+.madHeading h2 {
+  color: #cf1f28;
+  font-size: 27.2px;
+  font-weight: 600;
+  line-height: 32.64px;
+}
+
+.madHeading {
+  margin-bottom: 48px;
+}
+
+.mad-customerPanel {
+  display: flex;
+  column-gap: 32px;
+}
+
+.mad-card {
+  width: 25%;
+  padding: 24px 24px 142.42px 24px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.08);
+    position:relative;
+}
+
+.mad-card::before{
+    content:"";
+    background-color:#D1D3D4;
+    z-index:2;
+    width:50%;
+    height:8px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    border-top: 8px solid #D1D3D4;
+}
+
+
+.mad-card-img {
+  display: block;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.mad-card-company {
+  display: block;
+  width: 100%;
+    padding-bottom:20px;
+}
+
+.mad-cardInfoText {
+  text-align: left;
+}
+
+.mad-Text1 {
+  color: #262524;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.mad-Text2 {
+  color: #262524;
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+
+.mad-Text3 {
+  color: #262524;
+  font-size: 12.8px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.mad-cardInfoUser {
+  text-align: right;
+}
+
+.mad-userName {
+  color: #262524;
+  font-size: 12.8px;
+  font-weight: 700;
+  line-height: 19.2px;
+  margin-bottom: 0;
+}
+
+.mad-conText {
+  color: #cf1f28;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin: 0;
+}
+
+.madCustomer {
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .mad-box img{
+    width: min-content;
+  }
+  .madContainerFeature {
+    background: #f1f2f2;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+
+  .madContainerFeature-heading p {
+    color: #cf1f28;
+    font-size: 23.8px;
+    font-weight: 600;
+    line-height: 32.64px;
+    margin: 0;
+    display: block;
+    padding-left: 17px;
+  }
+
+  .componentContentSectionContainer {
+    display: unset;
+  }
+  .contentSectionContent {
+    padding: 0 2rem;
+  }
+
+  .mad-feature {
+    grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+    background-color: #f1f2f2;
+    padding: 8px 13px 20px 17px;
+    margin-top: 2rem;
+    row-gap: 15px;
+    column-gap: 24px;
+  }
+
+  .mad-box p {
+    color: #cf1f28;
+    font-family: Kanit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .mad-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*******/
+
+  .madHeading h2 {
+    color: #cf1f28;
+    font-size: 23.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.64px;
+  }
+
+  .mad-customerPanel {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .mad-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-right: 15px;
+  }
+
+  .mad-Text1 {
+    color: #262524;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 16.8px;
+  }
+
+  .mad-Text2 {
+    color: #262524;
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 16.8px;
+  }
+
+  .mad-Text3 {
+    color: #262524;
+    font-size: 11.2px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.8px;
+  }
+
+  .mad-cardInfoUser {
+    color: #262524;
+    text-align: right;
+    font-size: 11.2px;
+    font-weight: 700;
+    line-height: 16.8px;
+  }
+
+  .mad-conText {
+    color: #cf1f28;
+    font-size: 11.2px;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin: 0;
+  }
+  .madHeading {
+    margin-bottom: 15px;
+  }
+  .madCustomer ul.slick-dots {
+    position: absolute;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 7px;
+    width: 100%;
+  }
+
+  .madCustomer ul.slick-dots li button {
+    display: none;
+  }
+
+  .madCustomer ul.slick-dots li {
+    height: 10px;
+    width: 10px;
+    background: #f1f2f2;
+    list-style: none;
+    border-radius: 50%;
+  }
+
+  .madCustomer ul.slick-dots li.slick-active {
+    background: #cf1f28;
+  }
+  .slick-list {
+    padding: 15px 20% 15px 0 !important;
+  }
+  .slick-track {
+    height: 100%;
+  }
+}
+

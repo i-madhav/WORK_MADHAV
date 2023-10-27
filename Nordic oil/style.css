@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mad-card-container{
+    background-color:#EBF6F5;
+    padding: 40px 60px;
+  
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.mad-card{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width: calc(25% - 50px);
+}
+
+    .mad-scroll-right{
+        display: none;
+    }
+
+    .mad-scroll-left{
+        display: none;
+    }
+    .mad-card-photo1{
+    display: block;
+    width: 100%;
+    background-color:#B3DBDA;
+    border-radius: 0 !important;
+    }
+
+    .mad-card-photo2{
+        display: block;
+        width: 100%;
+        background-color:#7FADAB;
+        border-radius: 0 !important;
+    }
+
+    .mad-card-photo3{
+        display: block;
+        width: 100%;
+        background-color:#A3D1BC;
+        border-radius: 0 !important;
+    }
+
+    .mad-card-photo4{
+        display: block;
+        width: 100%;
+        background-color:#ECD6AF;
+        border-radius: 0 !important;
+    }
+
+  .mad-information {
+    padding: 0 .5rem;
+  }
+  
+  .mad-information-heading {
+    color: var(--313135, #313135);
+    font-size: 18.7px;
+    font-weight: 900;
+    line-height: 26.1px;
+    letter-spacing: 0.69px;
+  }
+  
+  .mad-sub-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .mad-sub-info p{
+    margin: 0;
+    color: var(--313135, #313135);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26.1px;
+    letter-spacing: 0.69px;
+  }
+  .mad-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .mad-card-button{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin-top: 10px;
+   margin-bottom: 20px;
+  }
+
+  .mad-btn-text{
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25.2px;
+    padding: 0 !important;
+      text-decoration:none;
+  }
+
+  .mad-card-button-photo{
+    margin-left: .4rem;
+  }
+
+@media only screen and (max-width: 1000px) {
+  .mad-card{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width:calc(48% - 10px);
+    }
+
+  .mad-card-container{
+    padding: 20px;
+    display: flex;
+    justify-content: unset;
+    gap: 10px;
+    flex-wrap:unset;
+    position: relative;
+}
+
+    .madhavContainer{
+        background-color:#EBF6F5;
+        overflow:scroll;
+    }
+
+    .mad-scroll-right{
+        position: absolute;
+        bottom:270px;
+        right: 45px;
+        transform:translate(-4px , 70px);
+        z-index:1;
+        display: block;
+    }
+
+     .mad-scroll-left{
+        position: absolute;
+        z-index:1;
+        display: block;
+        transform:translate(10px , 170px) rotate(180deg);
+        
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .mad-scroll-right{
+        transform:translate(1px , 70px);
+        z-index:1;
+        display: block;
+    }
+
+     .mad-scroll-left{
+        z-index:1;
+        display: block;
+        transform:translate(10px , 170px) rotate(180deg);
+        
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .mad-scroll-right{
+        transform:translate(1px , 0px);
+        z-index:1;
+        display: block;
+    }
+
+     .mad-scroll-left{
+        z-index:1;
+        display: block;
+        transform:translate(10px , 75px) rotate(180deg);
+        
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .mad-scroll-right{
+        transform:translate(8px , -50px);
+        z-index:1;
+        display: block;
+    }
+
+     .mad-scroll-left{
+        z-index:1;
+        display: block;
+        transform:translate(10px , 35px) rotate(180deg);
+        
+    }
+}

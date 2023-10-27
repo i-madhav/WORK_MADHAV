@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mad-container{
+    background-color:#EBF6F5;
+    padding: 40px 60px;
+  
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+  flex:1;
+  min-width: calc(25% - 50px);
+}
+
+@media (max-width: 1200px) {
+  .card {
+    min-width: calc(50% - 50px); 
+  }
+}
+
+    .card-photo1{
+    display: block;
+    width: 100%;
+    background-color:#B3DBDA;
+    }
+
+    .card-photo2{
+        display: block;
+        width: 100%;
+        background-color:#7FADAB;
+    }
+
+    .card-photo3{
+        display: block;
+        width: 100%;
+        background-color:#A3D1BC;
+    }
+
+    .card-photo4{
+        display: block;
+        width: 100%;
+        background-color:#ECD6AF;
+    }
+
+  .information {
+    padding: 0 .5rem;
+  }
+  
+  .information-heading {
+    color: var(--313135, #313135);
+    font-size: 18.7px;
+    font-weight: 900;
+    line-height: 26.1px;
+    letter-spacing: 0.69px;
+  }
+  
+  .sub-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .sub-info p{
+    margin: 0;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .card-button{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+   margin-top: 10px;
+   margin-bottom: 20px;
+  }
+
+  .btn-text{
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25.2px;
+  }
+
+  .card-button-photo{
+    margin-left: .4rem;
+  }
+
+@media only screen and (max-width: 600px) {
+  .card{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    max-width:calc(50% - 10px);
+}
+
+  .mad-container{
+    background-color:#EBF6F5;
+    padding: 20px;
+  
+    display: flex;
+    justify-content: unset;
+    
+    gap: 10px;
+    flex-wrap:unset;
+    overflow:scroll;
+}
+}
