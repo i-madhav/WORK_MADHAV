@@ -6,3 +6,6 @@ document.querySelector(".payment-buttons").before(div)
 
 document.querySelector("form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant__label").textContent = "Size: "
 document.querySelector("form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant__label").textContent = "Material: "
+
+//MOBILE
+document.querySelector("form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant__label").textContent = "Color: "

@@ -11,97 +11,96 @@ span.product__price {
 }
 
 
-span.product__note{
+span.product__note {
     color: #000;
-font-size: 11px;
-font-weight: 600;
-line-height: 24.48px;
-letter-spacing: 0.383px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24.48px;
+    letter-spacing: 0.383px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4){
-    display:flex;
-    align-items:center;
-    gap:10px;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap{
-    margin-bottom:0;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap {
+    margin-bottom: 0;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap .variant-input label{
-    padding:1px 10px;
-    margin-bottom:6.5px;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap .variant-input label {
+    padding: 1px 10px;
+    margin-bottom: 6.5px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap{
-    display:flex;
-    align-items:center;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
+    display: flex;
+    align-items: center;
 }
 
 button.btn.btn--full.add-to-cart.btn--tertiary {
     border-radius: 35px;
-border: 2px solid #000;
-background: #000;
+    border: 2px solid #000;
+    background: #000;
 }
 
-button.btn.btn--full.add-to-cart.btn--tertiary span{
+button.btn.btn--full.add-to-cart.btn--tertiary span {
     color: #FFF;
-font-size: 19.375px;
-font-style: normal;
-font-weight: 400;
-line-height: 28.4px; 
-letter-spacing: 0.5px;
+    font-size: 19.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.4px;
+    letter-spacing: 0.5px;
 }
+
 button.shopify-payment-button__more-options.BUz42FHpSPncCPJ4Pr_f {
     color: #000;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0.5px;
-text-decoration-line: underline;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-decoration-line: underline;
 }
 
 h1.h1.product-single__title {
     color: #000;
-font-size: 36px;
-font-style: italic;
-font-weight: 700;
-line-height: 46px;
-letter-spacing: -1.15px;
-text-transform: uppercase;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1.15px;
+    text-transform: uppercase;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6){
-    display:flex;
-    align-items:center;
-    margin-bottom:1rem;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap .variant-input label{
-    padding:5px 10px;
-    margin-left:1rem;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap .variant-input label {
+    padding: 5px 10px;
+    margin-left: 1rem;
     color: #000;
-text-align: center;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 13.6px; 
-letter-spacing: 0.383px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13.6px;
+    letter-spacing: 0.383px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap{
-    margin-bottom:0;
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap {
+    margin-bottom: 0;
 }
 
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant__label{
-  
-}
+form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant__label {}
 
-.aos-animate.trust-image{
-    display:none;
+.aos-animate.trust-image {
+    display: none;
 }
 
 
@@ -111,8 +110,8 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:1rem;
-    margin-bottom:1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .reviewCon-text {
@@ -122,10 +121,46 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     font-weight: 600;
     line-height: 19.15px;
     letter-spacing: 0.3px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
-.reviewCon-photo{
+.reviewCon-photo {
     width: 50%;
     display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-single__header.small--text-center {
+        text-align: left !important;
+    }
+
+    .product-single__prices {
+        justify-content: flex-start;
+    }
+
+    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
+        margin-bottom: 0;
+    }
+
+    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant__label-info {
+        display: none;
+    }
+
+    h1.h1.product-single__title {
+        color: #000;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: -0.977px;
+        text-transform: uppercase;
+    }
 }
