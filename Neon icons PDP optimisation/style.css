@@ -136,7 +136,7 @@ background: #F4F4F4 !important;
     display:none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .product-single__header.small--text-center {
         text-align: left !important;
     }
