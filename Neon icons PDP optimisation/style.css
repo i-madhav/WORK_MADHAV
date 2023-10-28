@@ -126,6 +126,16 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     display: block;
 }
 
+.kqsiVA9Jf8LJAbxw8Bau.h7OYsWHrW5495r9beh2n.jjzYeefyWpPZLH9pIgyw.DnvZqPMEvBFbBre5UuP9.size--large {
+    border-radius: 35px;
+border: 1px solid #5A31F4;
+background: #F4F4F4 !important;
+}
+
+.kqsiVA9Jf8LJAbxw8Bau.h7OYsWHrW5495r9beh2n.jjzYeefyWpPZLH9pIgyw.DnvZqPMEvBFbBre5UuP9.size--large span:nth-child(2){
+    display:none;
+}
+
 @media only screen and (max-width: 600px) {
     .product-single__header.small--text-center {
         text-align: left !important;
@@ -171,3 +181,4 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
         letter-spacing: 0.383px;
     }
 }
+
