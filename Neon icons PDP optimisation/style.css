@@ -10,7 +10,6 @@ span.product__price {
     letter-spacing: 0.45px;
 }
 
-
 span.product__note {
     color: #000;
     font-size: 11px;
@@ -19,22 +18,22 @@ span.product__note {
     letter-spacing: 0.383px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(4) {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap {
     margin-bottom: 0;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap .variant-input label {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input-wrap .variant-input label {
     padding: 1px 10px;
     margin-bottom: 6.5px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
     display: flex;
     align-items: center;
 }
@@ -74,13 +73,13 @@ h1.h1.product-single__title {
     text-transform: uppercase;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(6) {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap .variant-input label {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap .variant-input label {
     padding: 5px 10px;
     margin-left: 1rem;
     color: #000;
@@ -92,7 +91,7 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     letter-spacing: 0.383px;
 }
 
-form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap {
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(6) .variant-input-wrap {
     margin-bottom: 0;
 }
 
@@ -126,14 +125,11 @@ form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child
     display: block;
 }
 
-.kqsiVA9Jf8LJAbxw8Bau.h7OYsWHrW5495r9beh2n.jjzYeefyWpPZLH9pIgyw.DnvZqPMEvBFbBre5UuP9.size--large {
-    border-radius: 35px;
-border: 1px solid #5A31F4;
-background: #F4F4F4 !important;
-}
-
 .kqsiVA9Jf8LJAbxw8Bau.h7OYsWHrW5495r9beh2n.jjzYeefyWpPZLH9pIgyw.DnvZqPMEvBFbBre5UuP9.size--large span:nth-child(2){
     display:none;
+}
+[id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant__label-info {
+    display: block;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -145,7 +141,7 @@ background: #F4F4F4 !important;
         justify-content: flex-start;
     }
 
-    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) {
+    [id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(5) {
         display: flex;
         align-items: center;
         gap: 10px;
@@ -153,11 +149,11 @@ background: #F4F4F4 !important;
         margin-top: 1rem;
     }
 
-    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
+    [id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant-input-wrap {
         margin-bottom: 0;
     }
 
-    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant__label-info {
+    [id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(5) .variant__label-info {
         display: none;
     }
 
@@ -171,7 +167,7 @@ background: #F4F4F4 !important;
         text-transform: uppercase;
     }
 
-    form#AddToCartForm-7622161694932 .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input label {
+    [id="AddToCartForm-7622161694932"] .variant-wrapper.variant-wrapper--.js:nth-child(4) .variant-input label {
         color: #000;
         text-align: center;
         font-size: 13.069px;
