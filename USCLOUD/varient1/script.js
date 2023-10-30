@@ -1,4 +1,24 @@
-document.querySelector(".componentSplashContent").innerHTML = `<div class="splashTagline">The Global Leader in Third-Party Microsoft Enterprise Support</div>
+function waitForConditions(callback, ...conditions) {
+  const promises = conditions.map(
+    (condition) =>
+      new Promise((resolve) => {
+        let interval = setInterval(() => {
+          if (condition()) {
+            clearInterval(interval);
+            resolve(true);
+          }
+        }, 100);
+      })
+  );
+
+  Promise.all(promises).then(() => {
+    callback();
+  });
+}
+
+waitForConditions(
+  () => {
+    document.querySelector(".componentSplashContent").innerHTML = `<div class="splashTagline">The Global Leader in Third-Party Microsoft Enterprise Support</div>
 <h1 class="mad-UsContainer-heading">Worldclass Microsoft Support</h1>
 <ul class="mad-UsContainer-ul">
     <li class="mad-UsContainer-item">
@@ -82,18 +102,16 @@ document.querySelector(".componentSplashContent").innerHTML = `<div class="splas
 </div>`
 const componentTeaserColumnsContainer =  document.querySelector(".componentTeaserColumnsContainer")
 document.querySelector(".componentSplashContent").append( componentTeaserColumnsContainer)
-/* */
+
 
 const newButton = document.createElement("div")
 newButton.setAttribute("class" , "componentTeaserColumnsContainer-button")
 newButton.innerHTML= `<button class="componentTeaserColumnsContainer-button-text">US Cloud vs. Microsoft</button>`
 document.querySelector(".componentTeaserColumnsContainer").append(newButton)
-/** */
+
 
 document.querySelector(".brandsTitle").textContent = `We’ve replaced Unified Support for 6+ million Microsoft users`
 
-
-/* */
 
 const newDiv = document.createElement("div")
 newDiv.setAttribute("class" , "componentComparisonChartContainer-mad")
@@ -109,15 +127,13 @@ newDiv.innerHTML = `<div class="componentComparisonChartContainer-information">
 document.querySelector(".componentComparisonChartContainer").prepend(newDiv)
 
 
-
-// Get the source element to clone
 var sourceElement = document.querySelector(".componentTeaserColumnsContainer");
-
-// Get the target element where you want to prepend the cloned element
 var targetElement = document.querySelector(".componentBrandsContainer");
-
-// Clone the source element
-var clonedElement = sourceElement.cloneNode(true); // Pass true to clone all child nodes
-
-// Prepend the cloned element to the target element
+var clonedElement = sourceElement.cloneNode(true);
 targetElement.insertBefore(clonedElement, targetElement.firstChild);
+  },
+  () => document.querySelectorAll('.componentSplashContent').length > 0,
+  () => document.querySelectorAll('.componentTeaserColumnsContainer').length > 0,
+  () => document.querySelectorAll('.brandsTitle').length > 0,
+  () => document.querySelectorAll('.componentComparisonChartContainer').length > 0
+);

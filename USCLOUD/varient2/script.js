@@ -1,4 +1,24 @@
-document.querySelector(".componentSplashContent").innerHTML = `<div class="mad-con">
+function waitForConditions(callback, ...conditions) {
+  const promises = conditions.map(
+    (condition) =>
+      new Promise((resolve) => {
+        let interval = setInterval(() => {
+          if (condition()) {
+            clearInterval(interval);
+            resolve(true);
+          }
+        }, 100);
+      })
+  );
+
+  Promise.all(promises).then(() => {
+    callback();
+  });
+}
+
+waitForConditions(
+  () => {
+    document.querySelector(".componentSplashContent").innerHTML = `<div class="mad-con">
 <div class="splashTagline">The Global Leader in Third-Party Microsoft Enterprise Support</div>
 <h1 class="mad-UsContainer-heading">Worldclass Microsoft Support</h1>
 <ul class="mad-UsContainer-ul">
@@ -82,8 +102,6 @@ document.querySelector(".componentSplashContent").innerHTML = `<div class="mad-c
 <p>Need more details first? Let us know your needs <a href="#">here</a></p>
 </div>
 </div>`
-
-
 const cta = document.createElement("div")
 cta.setAttribute("class" , "mad-cta")
 cta.innerHTML = `<div class="information">
@@ -137,3 +155,9 @@ const componentBrandsContainer = document.querySelector(".componentBrandsContain
 cta.after(componentBrandsContainer)
 document.querySelector(".brandsTitle").textContent = `We’ve replaced Unified Support for 6+ million Microsoft users`
 
+  },
+  () => document.querySelectorAll('.componentSplashContent').length > 0,
+  () => document.querySelectorAll('.boxShadow.componentCallout').length > 0,
+  () => document.querySelectorAll('.brandsTitle').length > 0,
+  () => document.querySelectorAll('.componentBrandsContainer').length > 0
+);
