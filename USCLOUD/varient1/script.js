@@ -130,6 +130,7 @@ document.querySelector(".componentComparisonChartContainer").prepend(newDiv)
 var sourceElement = document.querySelector(".componentTeaserColumnsContainer");
 var targetElement = document.querySelector(".componentBrandsContainer");
 var clonedElement = sourceElement.cloneNode(true);
+clonedElement.style.opacity = "0"
 targetElement.insertBefore(clonedElement, targetElement.firstChild);
   },
   () => document.querySelectorAll('.componentSplashContent').length > 0,
