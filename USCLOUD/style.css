@@ -1,0 +1,113 @@
+.mad-UsContainer-heading {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 64.8px;
+    margin: 0;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.mad-UsContainer-ul {
+    list-style: none;
+}
+
+.mad-UsContainer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mad-UsContainer-item p {
+    margin: 0;
+    color: #FFF;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: 24.64px;
+}
+
+.mad-UsContainer-button {
+    padding-left: 45px;
+}
+
+.mad-UsContainer-button-text {
+    padding: 15px 115.18px 12.2px 115.55px;
+
+    color: #0F172D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.mad-UsContainer-query {
+    padding-left: 40px;
+    margin-top: 1.5rem;
+}
+
+.mad-UsContainer-query p {
+    color: #FFF;
+    font-size: 18.6px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 0;
+}
+
+.mad-UsContainer-query a {
+    color: #FFF;
+    font-size: 18.6px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.boxShadow.componentCallout {
+    display: none;
+}
+
+.componentTeaserColumnsContainer {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-bottom: 0;
+
+    padding: 23px 38px 23.6px 39px;
+    margin-right: 65px;
+}
+
+.contentContainerSub.componentTeaserColumns {
+    margin-bottom: 0;
+}
+
+.contentContainerSub.componentTeaserColumns h2 {
+    color: #CF1F28;
+    font-size: 27.2px;
+    font-weight: 600;
+    line-height: 32.64px;
+}
+
+.teaser {
+    color: #212529;
+    font-size: 12.3px;
+    font-weight: 400;
+    line-height: 18.48px;
+}
+
+.componentTeaserColumnsContainer-button-text {
+    padding: 12.2px 88.706px 12.2px 89.024px;
+    border-radius: 50px;
+    border: 1px solid #CF1F28;
+    background: #CF1F28;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+}
