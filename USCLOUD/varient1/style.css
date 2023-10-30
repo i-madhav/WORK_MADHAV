@@ -128,11 +128,9 @@
     text-align: center;
     background: #F1F2F2;
 box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.25);
-
-    margin-left:5.5rem;
-    margin-right:5.5rem;
     padding:2rem;
-    
+    max-width:1280px;
+    margin:auto;
 }
 
 .information-t1 {
@@ -204,3 +202,74 @@ line-height: 21.6px;
 .brandsTitle{
     text-align:center;
 }
+
+@media only screen and (max-width: 600px) {
+  .ctaContainer.mediumAndUnder {
+      display:none;
+  }
+    
+
+  .mad-UsContainer-heading {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16.2px;
+    padding-left: 10px;
+}
+
+.mad-UsContainer-item p {
+    color: #FFF;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.mad-UsContainer-button {
+    text-align: center;
+}
+
+.mad-UsContainer-button-text {
+    width: 90%;
+
+    color: #000;
+    text-align: center;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11.2px;
+    letter-spacing: 0.42px;
+}
+
+.mad-UsContainer-ul {
+    padding-left: 10px;
+}
+
+.mad-UsContainer-query {
+    padding-left: 10px;
+}
+
+.mad-UsContainer-query p {
+    color: #FFF;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.mad-UsContainer-query a {
+    color: #FFF;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration-line: underline;
+}
+
+.splashTagline {
+    padding-left: 10px !important;
+}
+
+}
+

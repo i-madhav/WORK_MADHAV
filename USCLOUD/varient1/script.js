@@ -107,3 +107,17 @@ newDiv.innerHTML = `<div class="componentComparisonChartContainer-information">
 <button class="componentComparisonChartContainer-button-text">US Cloud Microsoft Support</button>
 </div>`
 document.querySelector(".componentComparisonChartContainer").prepend(newDiv)
+
+
+
+// Get the source element to clone
+var sourceElement = document.querySelector(".componentTeaserColumnsContainer");
+
+// Get the target element where you want to prepend the cloned element
+var targetElement = document.querySelector(".componentBrandsContainer");
+
+// Clone the source element
+var clonedElement = sourceElement.cloneNode(true); // Pass true to clone all child nodes
+
+// Prepend the cloned element to the target element
+targetElement.insertBefore(clonedElement, targetElement.firstChild);

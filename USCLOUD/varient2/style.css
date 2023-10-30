@@ -209,7 +209,7 @@ h2.brandsTitle {
 
     .card-box {
         display: unset;
-    
+
     }
 
     .card {
@@ -219,10 +219,10 @@ h2.brandsTitle {
 
     .mad-cta {
         margin-top: 0;
-        width:100%;
-        margin-left:0;
-        margin-right:0;
-        padding:2rem 1rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2rem 1rem;
     }
 
     .info-t1 {
@@ -395,14 +395,14 @@ h2.brandsTitle {
     }
 
     .componentCallout {
-        text-align:left;
+        text-align: left;
     }
 
-    .title a{
+    .title a {
         color: #BF33AD;
-font-size: 23px;
-font-style: normal;
-font-weight: 275;
-line-height: 34.56px;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: 34.56px;
     }
 }
