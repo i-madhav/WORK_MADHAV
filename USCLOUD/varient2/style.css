@@ -33,17 +33,14 @@
 
 .mad-UsContainer-button-text {
     padding: 15px 115.18px 12.2px 115.55px;
-
     color: #0F172D;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.48px;
-
     border-radius: 50px;
     background: #FFF;
-
 }
 
 .mad-UsContainer-query {
@@ -70,10 +67,11 @@
 .mad-cta {
     background: #F1F2F2;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
-    margin-left:2.5rem;
-    margin-right:4rem;
-    margin-top:2rem;
-    padding:2rem 4rem;
+    margin-left: 2.5rem;
+    margin-right: 4rem;
+    margin-top: -21rem;
+    padding: 2rem 3rem;
+    position: relative;
 }
 
 .information {
@@ -169,29 +167,242 @@
     background: #BF33AD;
 
     color: #FFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.48px;
 }
 
 .componentBrandsContainer {
-    margin-top:11rem;
+    margin-top: 1rem;
 }
 
 
 h2.brandsTitle {
-    text-align:center;
+    text-align: center;
 }
 
 .componentQuotes {
-    display:none;
+    display: none;
 }
 
 
 .componentBrandsContainer .contentContainerSub {
     display: flex;
     justify-content: center;
-    max-width: 1400px;
+    max-width: 1432px;
+}
+
+
+.componentBrands .grid {
+    display: flex;
+    width: 100%;
+}
+
+
+.componentBrands .grid .item {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card-box {
+        display: unset;
+    
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .mad-cta {
+        margin-top: 0;
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+        padding:2rem 1rem;
+    }
+
+    .info-t1 {
+        color: #BF33AD;
+        text-align: center;
+        font-size: 25.2px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30.24px;
+        /* 120% */
+    }
+
+    .info-t2 {
+        color: #000;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 25.2px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: 25.2px;
+    }
+
+    .info-t3 {
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12.6px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15.75px;
+        /* 125% */
+    }
+
+
+    .card-t1 {
+        color: #BF33AD;
+        text-align: center;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+    }
+
+    .card-t2 {
+        color: #BF33AD;
+        text-align: center;
+        font-size: 18.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27.3px;
+        /* 150% */
+    }
+
+    .card-t3 {
+        color: #000;
+        text-align: center;
+        font-size: 12.6px;
+        font-style: normal;
+        font-weight: 275;
+        line-height: 15.75px;
+    }
+
+    .chooseUs p {
+        color: #000;
+        text-align: center;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32.64px;
+    }
+
+    .chooseUs button {
+        color: #FFF;
+        text-align: center;
+        font-size: 11.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.48px;
+    }
+
+    .componentSplash {
+        padding: 0 !important;
+        padding: 0 0 0 !important;
+        clear: unset !important;
+    }
+
+    .componentSplashBackground {
+        position: unset !important;
+        opacity: 0;
+        background: unset;
+        background-size: unset;
+    }
+
+    .componentSplashOverlay {
+        position: unset;
+        background: unset;
+
+    }
+
+    .componentSplashContent {
+        position: unset;
+        padding-bottom: 23px;
+    }
+
+    .mad-UsContainer-heading {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16.2px;
+        padding-left: 10px;
+    }
+
+    .mad-UsContainer-item p {
+        color: #FFF;
+        font-size: 10.5px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+    }
+
+    .mad-UsContainer-button {
+        text-align: center;
+    }
+
+    .mad-UsContainer-button-text {
+        width: 90%;
+
+        color: #000;
+        text-align: center;
+        font-size: 11.2px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 11.2px;
+        letter-spacing: 0.42px;
+    }
+
+    .mad-UsContainer-ul {
+        padding-left: 10px;
+    }
+
+    .mad-UsContainer-query {
+        padding-left: 10px;
+    }
+
+    .mad-UsContainer-query p {
+        color: #FFF;
+        font-size: 12.5px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .mad-UsContainer-query a {
+        color: #FFF;
+        font-size: 12.5px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        text-decoration-line: underline;
+    }
+
+    .splashTagline {
+        padding-left: 10px !important;
+    }
+
+    .ctaContainer.mediumAndUnder {
+        display: none;
+    }
+
+    .componentCallout {
+        text-align:left;
+    }
+
+    .title a{
+        color: #BF33AD;
+font-size: 23px;
+font-style: normal;
+font-weight: 275;
+line-height: 34.56px;
+    }
 }

@@ -131,10 +131,9 @@ cta.innerHTML = `<div class="information">
 <p>Why Choose Us over Microsoft?</p>
 <button>US Cloud vs. Microsoft</button>
 </div>`
-document.querySelector(".mad-con").after(cta)
-
+document.querySelector(".boxShadow.componentCallout").before(cta)
 
 const componentBrandsContainer = document.querySelector(".componentBrandsContainer")
-document.querySelector(".boxShadow.componentCallout").before(componentBrandsContainer)
-
+cta.after(componentBrandsContainer)
 document.querySelector(".brandsTitle").textContent = `We’ve replaced Unified Support for 6+ million Microsoft users`
+
