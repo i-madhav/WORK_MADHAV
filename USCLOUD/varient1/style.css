@@ -75,8 +75,7 @@
     margin-left: 40px;
     margin-top: 20px;
     padding-bottom: 0;
-
-    padding: 23px 38px 23.6px 39px;
+    padding: 23px 38px 23px 41px;
     margin-right: 65px;
 }
 
@@ -98,16 +97,85 @@
     line-height: 18.48px;
 }
 
+.componentTeaserColumnsContainer-button {
+    text-align: center;
+    padding-top: 10px;
+}
+
 .componentTeaserColumnsContainer-button-text {
     padding: 12.2px 88.706px 12.2px 89.024px;
     border-radius: 50px;
     border: 1px solid #CF1F28;
     background: #CF1F28;
-
     color: #FFF;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.48px;
+}
+
+
+.componentQuotes {
+    display: none;
+}
+
+
+
+.componentComparisonChartContainer-mad {
+    text-align: center;
+    background: #F1F2F2;
+box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.25);
+
+    margin-left:5.5rem;
+    margin-right:5.5rem;
+    padding:2rem;
+    
+}
+
+.information-t1 {
+    color: #CF1F28;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 34.56px;
+    margin-bottom:1rem;
+}
+
+.information-t2 {
+   color: #212529;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+.information-t1 span {
+    color: #CF1F28;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.56px;
+}
+
+.information-t3 {
+    color: #212529;
+font-size: 17.6px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.6px; 
+}
+
+.componentComparisonChartContainer-button-text {
+    padding: 9.4px 24.704px 9.4px 25.066px;
+    border-radius: 50px;
+    border: 1px solid #227987;
+    background: #227987;
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
 }

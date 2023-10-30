@@ -82,3 +82,28 @@ document.querySelector(".componentSplashContent").innerHTML = `<div class="splas
 </div>`
 const componentTeaserColumnsContainer =  document.querySelector(".componentTeaserColumnsContainer")
 document.querySelector(".componentSplashContent").append( componentTeaserColumnsContainer)
+/* */
+
+const newButton = document.createElement("div")
+newButton.setAttribute("class" , "componentTeaserColumnsContainer-button")
+newButton.innerHTML= `<button class="componentTeaserColumnsContainer-button-text">US Cloud vs. Microsoft</button>`
+document.querySelector(".componentTeaserColumnsContainer").append(newButton)
+/** */
+
+document.querySelector(".brandsTitle").textContent = `We’ve replaced Unified Support for 6+ million Microsoft users`
+
+
+/* */
+
+const newDiv = document.createElement("div")
+newDiv.setAttribute("class" , "componentComparisonChartContainer-mad")
+newDiv.innerHTML = `<div class="componentComparisonChartContainer-information">
+<h1 class="information-t1"><span> US Cloud:</span>The Global Leader in Third-Party Microsoft Enterprise Support</h1>
+<p class="information-t2">Save 30-50% on a complete replacement for Microsoft Premier & Unified Support.</p>
+<p class="information-t3">Enterprises worldwide are replacing Microsoft with US Cloud to save 30-50% on support costs. We support the entire Microsoft stack and have financially-backed SLAs for guaranteed response times and managed Microsoft escalations when needed.</p>
+</div>
+
+<div class="componentComparisonChartContainer-button">
+<button class="componentComparisonChartContainer-button-text">US Cloud Microsoft Support</button>
+</div>`
+document.querySelector(".componentComparisonChartContainer").prepend(newDiv)

@@ -1,0 +1,197 @@
+.mad-UsContainer-heading {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 64.8px;
+    margin: 0;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.mad-UsContainer-ul {
+    list-style: none;
+}
+
+.mad-UsContainer-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.mad-UsContainer-item p {
+    margin: 0;
+    color: #FFF;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: 24.64px;
+}
+
+.mad-UsContainer-button {
+    padding-left: 45px;
+}
+
+.mad-UsContainer-button-text {
+    padding: 15px 115.18px 12.2px 115.55px;
+
+    color: #0F172D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.mad-UsContainer-query {
+    padding-left: 40px;
+    margin-top: 1.5rem;
+}
+
+.mad-UsContainer-query p {
+    color: #FFF;
+    font-size: 18.6px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 0;
+}
+
+.mad-UsContainer-query a {
+    color: #FFF;
+    font-size: 18.6px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.mad-cta {
+    background: #F1F2F2;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    margin-left:2.5rem;
+    margin-right:4rem;
+    margin-top:2rem;
+    padding:2rem 4rem;
+}
+
+.information {
+    text-align: center;
+}
+
+.info-t1 {
+    color: #BF33AD;
+    font-size: 28.8px;
+    font-weight: 700;
+    line-height: 34.56px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.info-t2 {
+    color: #000;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 28.8px;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.info-t3 {
+    color: #000;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 125% */
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid #BF33AD;
+    width: 25%;
+    padding: 1.5rem;
+}
+
+.card-t1 {
+    color: #BF33AD;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 0;
+}
+
+.card-t2 {
+    color: #BF33AD;
+    text-align: center;
+    font-size: 20.8px;
+    font-weight: 500;
+    line-height: 31.2px;
+    margin: 0;
+}
+
+.card-t3 {
+    color: #000;
+    text-align: center;
+    font-size: 14.4px;
+    font-weight: 275;
+    line-height: 18px;
+    margin: 0;
+}
+
+.chooseUs {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.chooseUs p {
+    color: #000;
+    font-size: 27.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.64px;
+}
+
+.chooseUs button {
+    padding: 12.2px 88.706px 12.2px 89.024px;
+    border-radius: 50px;
+    border: 1px solid #BF33AD;
+    background: #BF33AD;
+
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.48px;
+}
+
+.componentBrandsContainer {
+    margin-top:11rem;
+}
+
+
+h2.brandsTitle {
+    text-align:center;
+}
+
+.componentQuotes {
+    display:none;
+}
+
+
+.componentBrandsContainer .contentContainerSub {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+}
