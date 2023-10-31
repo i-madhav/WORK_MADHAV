@@ -161,3 +161,5 @@ document.querySelector(".brandsTitle").textContent = `We’ve replaced Unified S
   () => document.querySelectorAll('.brandsTitle').length > 0,
   () => document.querySelectorAll('.componentBrandsContainer').length > 0
 );
+
+document.querySelector(".componentSplashContent").append(cta)

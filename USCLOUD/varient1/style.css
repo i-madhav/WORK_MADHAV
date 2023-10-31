@@ -203,6 +203,11 @@ line-height: 21.6px;
     text-align:center;
 }
 
+
+.ctaContainer.mediumAndUnder {
+    display:none;
+}
+
 @media only screen and (max-width: 600px) {
   .ctaContainer.mediumAndUnder {
       display:none;
